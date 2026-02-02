@@ -10,8 +10,7 @@ int main(){
     scanf("%s",spell);
     reverse_spell(spell);
     printf("%s",spell);
-    return 0;
-
+    return 0; 
 }
 
 void reverse_spell(char *str){
@@ -28,5 +27,5 @@ void reverse_spell(char *str){
         start ++;
         end --;
     }
-    
+
 }
