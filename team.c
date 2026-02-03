@@ -4,7 +4,7 @@ typedef struct{
     int score;
 } Student;
 
-double get_average(Student *list,int count){
+double get_average(Student *list, int count){
     int sum = 0;
     double avg = 0;
 
